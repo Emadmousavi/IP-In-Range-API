@@ -1,7 +1,9 @@
 # IP-In-Range-API
 This is a Simple Web API wriiten in java
 
-
+with the help of this api you can insert some ip recorde with attributes of (startIP,endIP,country,latitude,longtitude,company,createDate) in a databse by
+post request and then you can send get request and send an ip in request.
+if the ip is in range of any (startIP,endIP) of existed records api will response to you other information about ip like (startIP,endIP,country,company)
 
 
 # How TO RUN :
