@@ -5,7 +5,11 @@ with the help of this api you can insert some ip recorde with attributes of (sta
 post request and then you can send get request and send an ip in request.
 if the ip is in range of any (startIP,endIP) of existed records api will response to you other information about ip like (startIP,endIP,country,company)
 
-you should have installed POSTMAN and XAMPP or MYSQL WORKBENCH to create databse
+you should have installed :
+
+POSTMAN to send post and get request
+
+XAMPP or MYSQL WORKBENCH to create databse
 
 
 # How TO RUN :
