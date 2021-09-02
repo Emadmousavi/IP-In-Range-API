@@ -9,6 +9,9 @@ This is a Simple Web API wriiten in java
 # 1
 fisrt you should have a local database named "spring_webapi" (you can make it using xampp or mysql workbench)
 
+of course tou can change the name but you should go to "src/main/resources/application.properties" and change "spring.datasource.url=jdbc:mysql://localhost:3306/spring_webapi"
+to "spring.datasource.url=jdbc:mysql://localhost:3306/YOUR_DATABASE_NAME"
+
 # 2
 run the app (for first run go to "src/main/resources/application.properties" and change mode of "spring.jpa.hibernate.ddl-auto" to create and for furthuer run change it to update) . This will create the "ipinfo_model" table in the database
 
